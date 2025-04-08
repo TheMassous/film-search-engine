@@ -128,7 +128,7 @@ class MovieSearchApp:
         description = movie_data.get("overview", "N/A")
         poster_path = movie_data.get("poster_path", "")
         actors = [actor['name'] for actor in cast_data.get('cast', [])]
-        a=0
+        
         movie_details = {
             "title": movie_data.get("title", "N/A"),
             "overview": description,
