@@ -31,7 +31,7 @@ class MovieSearchApp:
         self.card_color = "#ffffff"  # Pure white cards
         self.accent_color = "#4a6fa5"  # Bright blue
         self.text_color = "#e63946"  # Vibrant red
-        self.light_text = "#333333"  # Dark gray for text
+        self.light_text = "#e63946"  # Dark gray for text
         self.bg_input_color="#fe7373"
 
         # Initialize movie data and search index
